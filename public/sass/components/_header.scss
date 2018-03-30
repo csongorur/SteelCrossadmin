@@ -1,0 +1,29 @@
+header {
+    background: $primary;
+    padding-top: 15px;
+    nav {
+        text-align: right;
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            li {
+                display: inline-block;
+                margin-left: 10px;
+
+                a {
+                    color: $white;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
